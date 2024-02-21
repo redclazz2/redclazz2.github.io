@@ -38,11 +38,46 @@ function load_projects() {
     var project_data = {
         "projects": [
             {
-                "title": "Project 1",
+                "title": "Project Splatwars",
+                "date": "2019 - 2024",
+                "desc": "Project splatwars is a 2D demake of certain popular online shooter. It supports up to 8 players in a lobby. As of 2024 no support will be given to this software.",
+                "respon": "Game Design and Programming.",
+                "tech": "Gamemaker Studio 2, .NET 6"
+            },
+            {
+                "title": "Coopcar (Academy)",
+                "date": "2022",
+                "desc": "Coopcar is a Web App that allows car-sharing on user-created routes in a city.",
+                "respon": "Fullstack programming, UI & UX",
+                "tech": "ASP.NET 5.2.7, SQL Server 2019, jQuery 3.6.0, Bootstrap 5.1.3, VS 2022, Azure DevOps"
+            },
+            {
+                "title": "IdeaBuffet (Academy)",
+                "date": "2022",
+                "desc": "IdeaBuffet is  a Web App that allows students to present their ideas to colleagues in online campus.",
+                "respon": "Fullstack programming, UI & UX",
+                "tech": "Blazor WebAssembly, SQL Server 2019, .NET 6, Havit Components 3.0.1, VS2022, Azure DevOps"
+            },
+            {
+                "title": "Beauty Blends (Academy)",
+                "date": "2023",
+                "desc": "Beauty Blends is the name given to an association of bussiness that work together to give the user several health/beauty related services.",
+                "respon": "Scrum Master, Infraestructure Planning, Network Services Deployment",
+                "tech": "Cisco Routers, Cisco Switches, Bind 9, Ubuntu Server 22.04, Dovecot, Postfix, Asterisk, Squid Proxy, Windows Server 2022 DHCP, FileZilla FTPs"
+            },
+            {
+                "title": "Space Soccer (In Production)",
+                "date": "2023",
+                "desc": "Online VS game for 2 players over the internet. Score 10 goals to win! As of 2024 is has 2,021 plays over: <a href=" + "https://gx.games/games/umuk93/space-soccer/" + ">Play Space Soccer!</a>",
+                "respon": "Game Design, Game Development, Marketing",
+                "tech": "Gamemaker Studio 2: Beta Networking"
+            },
+            {
+                "title": "Redclazz's Home (In Production)",
                 "date": "2024",
-                "desc": "A new test project.",
-                "respon": "My work.",
-                "tech": "My Work."
+                "desc": "Hi! You're using this project right now!",
+                "respon": "Fullstack programming",
+                "tech": "HTML, CSS & JS, .NET 6"
             }
         ]
     }
@@ -83,7 +118,7 @@ function load_projects() {
                     }
                 })
             }else{
-                modal_show_error("No available projects.");
+                modal_show_error("No available projects. Reload page.");
             }
         }
     })
@@ -92,7 +127,6 @@ function load_projects() {
 $(document).ready(() => {
     load_home();
 });
-
 
 $("#button-home").on("click", load_home);
 $("#button-projects").on("click", load_projects);
