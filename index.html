@@ -7,6 +7,7 @@
     <title>Redclazz's Home</title>
     <link rel="stylesheet" href="./Vendors/css/bootstrap.css">
     <link rel="stylesheet" href="./Assets/css/index.css">
+    <link rel="stylesheet" href="./Assets/css/projects.css">
     <link rel="icon" href="./Assets/images/logo.jpg">
 </head>
 
@@ -35,11 +36,11 @@
 
                 <div class="row common_container">
                     <ul>
-                        <li><button class="common_button">Home</button></li>
-                        <li><button class="common_button">Projects</button></li>
+                        <li><button class="common_button" id="button-home">Home</button></li>
+                        <li><button class="common_button" id="button-projects">Projects</button></li>
                         <li><button class="common_button">Blog</button></li>
                     </ul>
-
+                    <p>Click one button to browse the content uploaded to the page.</p>
                     <img src="./Assets/gifs/earthspin.gif" class="img-fixed">
                 </div>
             </div>
@@ -47,7 +48,6 @@
             <!--Content Viewer-->
             <div class="col-md-10">
                 <div class="main-content-viewer" id="main-content-viewer">
-                    
                 </div>
             </div>
         </div>
@@ -100,7 +100,8 @@
                         <div class="row">
                             <div class="mb-3">
                                 <label for="guestbook-username" class="form-label">Username:</label>
-                                <input type="text" class="form-control guestbook-form" id="guestbook-username" placeholder="blue">
+                                <input type="text" class="form-control guestbook-form" id="guestbook-username"
+                                    placeholder="blue">
                             </div>
                         </div>
 
@@ -150,15 +151,15 @@
 
     <div class="modal" data-bs-backdrop="static" id="loading-modal">
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content common_container modal-text">
-            <div class="modal-body">
-                <h5 class="modal-title" id="loading-title">Connecting to the internet ...</h5>
-                <img src="./Assets/gifs/loading.gif" class="img-loading" id="modal_image">
+            <div class="modal-content common_container modal-text">
+                <div class="modal-body">
+                    <h5 class="modal-title" id="loading-title">Connecting to the internet ...</h5>
+                    <img src="./Assets/gifs/loading.gif" class="img-loading" id="modal_image">
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      
+    </div>
+
 
     <!--Vendors-->
     <script src="./Vendors/js/bootstrap.js"></script>
