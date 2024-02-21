@@ -74,6 +74,14 @@ body{
     margin-bottom: 5px;
 }
 
+.img-loading{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
 .main-content-viewer{
     margin: 5px;
     padding: 15px;
@@ -130,4 +138,17 @@ body{
 
 .footer .socials{
     display: inline;
+}
+
+.modal-text{
+    text-align: center;
+}
+
+.modal-text h5{
+    margin-bottom: 10px;
+}
+
+.modal-backdrop
+{
+    opacity:0.75 !important;
 }

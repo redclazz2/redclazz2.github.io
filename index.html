@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redclazz's Home</title>
     <link rel="stylesheet" href="./Vendors/css/bootstrap.css">
-    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Assets/css/index.css">
     <link rel="icon" href="./Assets/images/logo.jpg">
 </head>
 
@@ -30,7 +30,7 @@
             <!--Content Selector-->
             <div class="col-md-2">
                 <div class="row selector-title common_container">
-                    <p>Avaliable Content:</p>
+                    <p>Available Content:</p>
                 </div>
 
                 <div class="row common_container">
@@ -46,19 +46,8 @@
 
             <!--Content Viewer-->
             <div class="col-md-10">
-                <div class="main-content-viewer">
-                    <h3>What's the web about?</h3>
-                    <p>
-                        This is the first text ever written for my website! The whole idea of opening a website is to
-                        practice some web dev skills and write a functional API for this. As you can probably see
-                        design is not
-                        my strong suit, but I really did try my best with CSS and the whole gruvbox/retro theming.
-                    </p>
-
-                    <p>
-                        The whole inspiration for this website is based on 90s personal blogs people used to update on
-                        geocities. So I hope I'm able to capture some of that feeling!
-                    </p>
+                <div class="main-content-viewer" id="main-content-viewer">
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +148,24 @@
         </div>
     </div>
 
+    <div class="modal" data-bs-backdrop="static" id="loading-modal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content common_container modal-text">
+            <div class="modal-body">
+                <h5 class="modal-title" id="loading-title">Connecting to the internet ...</h5>
+                <img src="./Assets/gifs/loading.gif" class="img-loading" id="modal_image">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
     <!--Vendors-->
     <script src="./Vendors/js/bootstrap.js"></script>
+    <script src="./Vendors/js/jquery.js"></script>
+    <script src="./Assets/js/index.js"></script>
 </body>
+
+
 
 </html>
