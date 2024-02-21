@@ -7,6 +7,7 @@
     <title>Redclazz's Home</title>
     <link rel="stylesheet" href="./Vendors/css/bootstrap.css">
     <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="icon" href="./Assets/images/logo.jpg">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                     <h3>What's the web about?</h3>
                     <p>
                         This is the first text ever written for my website! The whole idea of opening a website is to
-                        practice some web dev skillls and write a functional API for this. As you can probably see
+                        practice some web dev skills and write a functional API for this. As you can probably see
                         design is not
                         my strong suit, but I really did try my best with CSS and the whole gruvbox/retro theming.
                     </p>
@@ -81,18 +82,54 @@
             <!--Featured Content-->
             <div class="col-md-10">
                 <div class="main-content-viewer">
-                    <h3>What's the web about?</h3>
+                    <h3>Featured Content?</h3>
                     <p>
-                        This is the first text ever written for my website! The whole idea of opening a website is to
-                        practice some web dev skillls and write a functional API for this. As you can probably see
-                        design is not
-                        my strong suit, but I really did try my best with CSS and the whole gruvbox/retro theming.
+                        I'll post some of the videos I've been watching or cards containing other media.
                     </p>
+                </div>
+            </div>
+        </div>
 
-                    <p>
-                        The whole inspiration for this website is based on 90s personal blogs people used to update on
-                        geocities. So I hope I'm able to capture some of that feeling!
-                    </p>
+        <!--Website Guestbook-->
+        <div class="row common_container main">
+            <!--Guestbook Title-->
+            <div class="col-md-2">
+                <div class="row guestbook-title common_container">
+                    <p>Leave me a message on my guestbook:</p>
+                </div>
+
+                <div class="row common_container">
+                    <p>Please note comments aren't public as of now. They'll only be read by the webmaster.</p>
+                    <img src="./Assets/gifs/guestbook.gif" class="img-fixed">
+                </div>
+            </div>
+
+            <div class="col-md-10">
+                <div class="main-content-viewer">
+                    <p>Please complete the following form:</p>
+                    <form action="#">
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="guestbook-username" class="form-label">Username:</label>
+                                <input type="text" class="form-control guestbook-form" id="guestbook-username" placeholder="blue">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="guestbook-email" class="form-label">Email address:</label>
+                                <input type="email" class="form-control guestbook-form" id="guestbook-email"
+                                    placeholder="blue@example.com">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="guestbook-comment" class="form-label">Comment:</label>
+                            <textarea class="form-control guestbook-form" id="guestbook-comment" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="common_button">Send</button>
+                        <button type="reset" class="common_button">Clear</button>
+                    </form>
                 </div>
             </div>
         </div>

@@ -19,6 +19,14 @@ body{
     color:#ebdbb2;
 }
 
+.common_button:hover{
+    background-color: #bdae93;
+}
+
+.common_button:active{
+    background-color: #b16286;
+}
+
 .header{
     margin-top: 10px;
 }
@@ -32,6 +40,13 @@ body{
     margin-bottom: 0px;
     font-weight: bold;
     color: #1d2021;
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0.2;
+    }
 }
 
 .main li{
@@ -76,6 +91,25 @@ body{
 
 .featured-content p{
     margin: 0px;
+}
+
+.guestbook-title{
+    background-color: #689d6a;
+}
+
+.guestbook-title p{
+    margin: 0px;
+}
+
+.guestbook-form{
+    border-radius: 0px;
+    background-color: #928374;
+    color: #ebdbb2;
+    border-color: #1d2021;
+}
+
+.guestbook-form:focus{
+    background-color: #bdae93;
 }
 
 .footer-title{
