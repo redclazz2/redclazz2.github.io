@@ -2,7 +2,7 @@
     <div class="about_me_container">
         <div class="general_container inside_container">
             <h3>Links</h3>
-            <p>Let's chat! Reach out to me on social media:</p>
+            <p>Let's chat! Reach out to me on my official social media:</p>
 
             <ul>
                 <li><a href="https://co.linkedin.com/in/sebastian-zarate-1bb231229?trk=people-guest_people_search-card">Linked In</a></li>
