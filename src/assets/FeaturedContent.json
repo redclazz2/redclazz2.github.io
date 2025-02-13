@@ -1,0 +1,31 @@
+{
+    "music": {
+        "entry": [
+            { "title": "Go Your Own Way", "author": "Fleetwood Mac" },
+            { "title": "Sweet True Lies", "author": "Beast in Black" },
+            { "title": "Wave of You", "author": "Surfaces" },
+            { "title": "Eye of The Night", "author": "Conan Gray" },
+            { "title": "Killing Me", "author": "Conan Gray" },
+            { "title": "Locos", "author": "León Larregui" },
+            { "title": "Out of Touch", "author": "Daryl Hall & John Oates" },
+            { "title": "Juno", "author": "Sabrina Carpenter" },
+            { "title": "Please Please Please", "author": "Sabrina Carpenter" },
+            { "title": "Kazehana", "author": "Hitorie" }
+        ]
+    },
+    "movies":{
+        "entry":[
+            {"title":"Interstellar", "author": "Christopher Nolan"},
+            {"title":"The Snoopy Show", "author": "Charles M. Schulz & Others"},
+            {"title":"Wicked", "author": "Jon M. Chu"}
+        ]
+    },
+    "books":{
+        "entry":[
+            {"title":"Ensayo sobre la ceguera", "author": "José Saramago"},
+            {"title":"Las intermitencias de la muerte", "author": "José Saramago"},
+            {"title":"La obra maestra", "author": "Francine Rivers"},
+            {"title":"Warriors", "author": "Erin Hunter"}
+        ]
+    }
+}
