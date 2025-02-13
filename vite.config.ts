@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/redclazz2.github.io/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
