@@ -18,6 +18,7 @@
         <div class="column right">
             <slot name="right">
                 <FeaturedContent></FeaturedContent>
+                <Lessons></Lessons>
             </slot>
         </div>
     </div>
@@ -25,6 +26,7 @@
 
 <script setup lang="ts">
 import FeaturedContent from "./FeaturedContent.vue";
+import Lessons from "./Lessons.vue";
 </script>
 
 <style scoped>
