@@ -4,7 +4,7 @@
             <slot name="left">
                 <div class="general_container inside_container">
                     <h3>What's the web about?</h3>
-                    <p>Welcome to my brand-new website! I put a lot of effort into designing and programming the Gruvbox theme (I'm no frontend dev). Hope you like it! Here, I'll share my favorite media and programming projects that didn't end up in the bin. Thanks for stopping by!</p>
+                    <p>Welcome to my brand-new website! I put a lot of effort into designing and programming the Gruvbox theme (I'm no frontend dev). Hope you like it! Here, I'll share my favorite media and programming projects. Thanks for stopping by!</p>
                 </div>
 
                 <div class="general_container inside_container">

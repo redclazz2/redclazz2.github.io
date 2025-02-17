@@ -54,18 +54,17 @@ const getRandomColor = () => {
     return colorPool[Math.floor(Math.random() * colorPool.length)];
 };
 
-// Watch for changes in featuredContent
 watch(featuredContent, (newList) => {
     flashEffect.value = true;
     colors.value = newList.map(() => getRandomColor());
 
     setTimeout(() => {
-        colors.value = newList.map(() => "#282828"); // Fades to default color
-    }, 500); // Keep flash for 500ms
+        colors.value = newList.map(() => "#282828");
+    }, 500);
 
     setTimeout(() => {
         flashEffect.value = false;
-    }, 1000); // Allow time for fade-out transition
+    }, 1000);
 });
 </script>
 
